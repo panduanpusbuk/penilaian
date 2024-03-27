@@ -1,6 +1,8 @@
 /* Navigator */
 .nav {
-    background-color: #777;
+    background-color: #d3d3d3;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 /* Space out content a bit */
@@ -36,9 +38,9 @@ body {
 }
 
 /* Customize container */
-@media (min-width: 768px) {
+@media (min-width: 50%) {
   .container {
-    max-width: 730px;
+    max-width: 75%;
   }
 }
 .container-narrow > hr {
@@ -50,7 +52,9 @@ body {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-
+.wrapper-daftarisi {
+  
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
